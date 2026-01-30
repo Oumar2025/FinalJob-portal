@@ -160,42 +160,7 @@ A complete job portal system with role-based access control (ADMIN & MEMBER), JW
 ## 📁 Project Structure
 
 ### job-portal-system/
-
-├── prisma/
-│ ├── schema.prisma   # Database schema
-│ ├── seed.js   # Database seeding
-│ └── dev.db   # SQLite database (auto-generated)
-├── src/
-│ ├── controllers/    # Business logic
-│ │ ├── auth.controller.ts
-│ │ ├── job.controller.ts
-│ │ ├── user.controller.ts
-│ │ └── admin.controller.ts
-│ ├── middleware/     # Authentication & authorization
-│ │ ├── auth.middleware.ts
-│ │ └── role.middleware.ts
-│ ├── routes/      # API routes
-│ │ ├── auth.routes.ts
-│ │ ├── job.routes.ts
-│ │ ├── user.routes.ts
-│ │ └── admin.routes.ts
-│ ├── utils/      # Utilities
-│ │ ├── db.ts
-│ │ └── email.ts
-│ └── app.ts        # Main application file
-├── public/       # Frontend HTML files
-│ ├── index.html     # Admin dashboard
-│ ├── jobs.html       # Job listings (public)
-│ ├── login.html       # Login page
-│ ├── register.html     # Registration page
-│ ├── applications.html     # Member applications
-│ ├── admin-management.html     # Admin panel
-│ └── post-job.html     # Job posting (admin)
-├── .env    # Environment variables
-├── .gitignore    # Git ignore file
-├── package.json     # Dependencies
-├── tsconfig.json    # TypeScript configuration
-└── README.md     # This file
+![Home Page](Image/Project_Structure.png)
 
 
 ## 🚀 Installation

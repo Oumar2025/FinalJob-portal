@@ -1,0 +1,45 @@
+{
+    "name": "job-portal",
+    "version": "1.0.0",
+    "description": "A job portal with admin and member roles",
+    "main": "dist/app.js",
+    "scripts": {
+        "dev": "nodemon src/app.ts",
+        "build": "tsc",
+        "start": "node dist/app.js",
+        "prisma:studio": "npx prisma studio",
+        "prisma:migrate": "npx prisma migrate dev",
+        "prisma:generate": "npx prisma generate",
+        "prisma:seed": "node prisma/seed.js"
+    },
+    "keywords": [
+        "job",
+        "portal",
+        "express",
+        "typescript",
+        "prisma"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "@prisma/client": "^5.22.0",
+        "axios": "^1.13.4",
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.6",
+        "dotenv": "^16.6.1",
+        "express": "^4.22.1",
+        "jsonwebtoken": "^9.0.3"
+    },
+    "devDependencies": {
+        "@types/bcryptjs": "^2.4.6",
+        "@types/cors": "^2.8.19",
+        "@types/express": "^4.17.25",
+        "@types/jsonwebtoken": "^9.0.10",
+        "@types/node": "^20.19.30",
+        "nodemon": "^3.1.11",
+        "prisma": "^5.22.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.9.3"
+    },
+    "type": "commonjs"
+}

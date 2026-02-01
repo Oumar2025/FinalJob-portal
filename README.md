@@ -4,7 +4,7 @@ A complete job portal system with role-based access control (ADMIN & MEMBER), JW
 
 ## 🎥 Demo Video
 ![Job Portal Screenshot](https://drive.google.com/file/d/1bXhzA4lZ3qNXj1JmuXRjD6Ha6caVFzSf/view?usp=sharing)
-*Add your screenshot/video link here*
+*Video link here*
 
 ## Test Coverage
 

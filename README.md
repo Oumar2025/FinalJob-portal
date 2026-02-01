@@ -17,7 +17,7 @@ A complete job portal system with role-based access control (ADMIN & MEMBER), JW
 ### Home Page
 ![Home Page](Image/home_page.png)
 
-### Home Page
+### Home Page API
 ![Home Page API](Image/home_page-API.png)
 
 

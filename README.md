@@ -3,7 +3,7 @@
 A complete job portal system with role-based access control (ADMIN & MEMBER), JWT authentication, and real-time application management.
 
 ## 🎥 Demo Video
-![Job Portal Screenshot](https://via.placeholder.com/800x400/4f46e5/ffffff?text=Job+Portal+Dashboard)
+![Job Portal Screenshot](https://drive.google.com/file/d/1bXhzA4lZ3qNXj1JmuXRjD6Ha6caVFzSf/view?usp=sharing)
 *Add your screenshot/video link here*
 
 ## Test Coverage
